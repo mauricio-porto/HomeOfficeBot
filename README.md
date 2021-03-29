@@ -32,36 +32,36 @@ Se você não tem ainda, instale o plugin **Selenium IDE** no seu browser.
 
 Abrindo o Selenium:
 
-[selenium-open](https://github.com/mauricio-porto/HomeOfficeBot/pictures/OpenSelenium.png "Abrindo Selenium")
+![selenium-open](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/OpenSelenium.png "Abrindo Selenium")
 
 Iniciando a gravação:
 
-[selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/pictures/SeleniumURL.png "Iniciando gravação")
+![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumURL.png "Iniciando gravação")
 
 Gravando:
 
-[selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/pictures/SeleniumRecording.png "Gravando")
+![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumRecording.png "Gravando")
 
 Parando a gravação:
 
-[selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/pictures/SeleniumToStop.png "Parando a gravação")
+![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumToStop.png "Parando a gravação")
 
 Selecionando exportação:
 
-[selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/pictures/SeleniumMenuExport.png "Parando a gravação")
+![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumMenuExport.png "Parando a gravação")
 
 Exportando a gravação em linguagem Java:
 
-[selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/pictures/SeleniumExportToJava.png "Exportando em Java")
+![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumExportToJava.png "Exportando em Java")
 
 ### Construindo o programa Java
 
-[intellij-project](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Projeto em Intellij")
+![intellij-project](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Projeto em Intellij")
 
 ### Exportando o programa como um Jar
 
-[intellij-export](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Exportando para Jar")
+![intellij-export](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Exportando para Jar")
 
 ### Editando o crontab
 
-[crontab-edit](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Editando o crontab")
+![crontab-edit](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Editando o crontab")

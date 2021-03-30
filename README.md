@@ -156,6 +156,8 @@ O código então ficará parecido com:
 Como esse programa Java irá rodar de forma independente, é importante ajustar as referências aos programas **chromedriver** e o próprio **chrome**.
 Veja os comentários **TODO** no código acima.
 
+Você encontra o programa **HomeOfficeBot.java** na estrutura final para ser executado aqui neste repositório.
+
 ![intellij-project](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Projeto em Intellij")
 
 ### Exportando o programa como um Jar

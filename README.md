@@ -30,13 +30,13 @@ Para isso, os passos necessários são:
 
 Se você não tem ainda, instale o plugin **Selenium IDE** no seu browser.
 
-Uma vez instalado, clique no ícone do plugin Selenium.
+Uma vez instalado, clique no ícone do plugin Selenium e no diálogo, selecione **Record a new test in a new project**.
 
 Abrindo o Selenium:
 
 ![selenium-open](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/OpenSelenium.png "Abrindo Selenium")
 
-Insira a URL que pretende fazer sua gravação e pressione **Start Recording**.
+Insira então a URL que pretende fazer sua gravação e pressione **Start Recording**.
 
 Iniciando a gravação:
 
@@ -48,7 +48,7 @@ Gravando:
 
 ![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumRecording.png "Gravando")
 
-Quando tiver concluído o fluxo, pare a gravação.
+Quando tiver concluído o fluxo, pare a gravação clicando o ícone vermelho à direita da barra de controle.
 
 Parando a gravação:
 

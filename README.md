@@ -78,6 +78,9 @@ Exportando a gravação em linguagem Java:
 Vou destacar que as figuras apresentadas acima não representam a navegação feita para gerar o código Java que irei apresentar a seguir.
 Essas figuras foram tomadas de forma rápida com acesso a esta página no **Github** apenas para ilustrar os passos.
 
+Para usar o browser Chrome com o Selenium será necessário baixar o programa [chromedriver](https://chromedriver.chromium.org/) e colocá-lo em um diretório qualquer.
+
+
 O código Java exportado será parecido com:
 
 ```
@@ -122,7 +125,36 @@ public class UntitledTest {
     }
 ```
 
-Ao invés de um teste JUnit (identificado pelas anotações @Test) nós vamos gerar um programa executável Java.
+Ao invés de um teste JUnit (identificado pelas anotações _**@Test**_) nós vamos gerar um programa executável Java.
+
+Devemos transformar o método anotado com @Test em um método privado (vou chamá-lo de execute) e inserir o famoso método main() para invocá-lo.
+
+O código então ficará parecido com:
+
+```
+    ...
+
+    public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", "/home/mapo/bin/chromedriver"); // TODO: Troque para o caminho do seu chromedriver
+        HomeOfficeBot me = new HomeOfficeBot();
+        me.execute();
+    }
+
+    private void execute() {
+        try {
+            ChromeOptions options = new ChromeOptions();
+            options.setHeadless(true);
+
+            options.setBinary("/usr/bin/google-chrome"); // TODO: Troque para o caminho do seu chrome
+
+            driver = new ChromeDriver(options);
+            ...
+    }
+
+```
+
+Como esse programa Java irá rodar de forma independente, é importante ajustar as referências aos programas **chromedriver** e o próprio **chrome**.
+Veja os comentários **TODO** no código acima.
 
 ![intellij-project](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Projeto em Intellij")
 

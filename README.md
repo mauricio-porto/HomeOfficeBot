@@ -30,25 +30,39 @@ Para isso, os passos necessários são:
 
 Se você não tem ainda, instale o plugin **Selenium IDE** no seu browser.
 
+Uma vez instalado, clique no ícone do plugin Selenium.
+
 Abrindo o Selenium:
 
 ![selenium-open](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/OpenSelenium.png "Abrindo Selenium")
+
+Insira a URL que pretende fazer sua gravação e pressione **Start Recording**.
 
 Iniciando a gravação:
 
 ![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumURL.png "Iniciando gravação")
 
+Siga navegando pelo site percorrendo o fluxo que pretende que seja reproduzido automaticamente depois.
+
 Gravando:
 
 ![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumRecording.png "Gravando")
+
+Quando tiver concluído o fluxo, pare a gravação.
 
 Parando a gravação:
 
 ![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumToStop.png "Parando a gravação")
 
+Pode dar um nome ao teste quando pedido ou deixar em branco.
+Então escolha no menu suspenso (3 pontos verticais) ao lado do nome do teste a opção de exportar.
+
 Selecionando exportação:
 
 ![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/SeleniumMenuExport.png "Parando a gravação")
+
+No menu de opções de exportação, escolha a linguagem Java.
+A seguir defina o local e o nome do arquivo a exportar.
 
 Exportando a gravação em linguagem Java:
 

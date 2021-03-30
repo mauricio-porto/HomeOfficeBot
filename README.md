@@ -127,7 +127,7 @@ public class UntitledTest {
 
 Ao invés de um teste JUnit (identificado pelas anotações _**@Test**_) nós vamos gerar um programa executável Java.
 
-Devemos transformar o método anotado com @Test em um método privado (vou chamá-lo de execute) e inserir o famoso método main() para invocá-lo.
+Devemos transformar o método anotado com _**@Test**_ em um método privado (vou chamá-lo de _execute_) e inserir o famoso método _main()_ para invocá-lo.
 
 O código então ficará parecido com:
 

@@ -114,7 +114,7 @@ public class UntitledTest {
         driver.findElement(By.id("requiredsenha")).sendKeys("123456");
         {
           WebElement dropdown = driver.findElement(By.name("requiredempresa"));
-          dropdown.findElement(By.xpath("//option[. = 'RESOURCE AMERICANA LTDA']")).click();
+          dropdown.findElement(By.xpath("//option[. = 'LOJAS AMERICANAS']")).click();
         }
         {
           WebElement element = driver.findElement(By.name("requiredempresa"));

@@ -231,4 +231,4 @@ Espero ter mostrado de forma clara e acessível os recursos para a criação fá
 
 Caso tenha alguma dúvida ou sugestão, não hesite em entrar em contato.
 
-Boa sorte com seu **HomeHofficeBot**.
+Boa sorte com seu **HomeOfficeBot**.

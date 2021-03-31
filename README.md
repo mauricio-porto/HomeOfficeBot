@@ -165,18 +165,70 @@ Depois que você tiver obtido seu código de navegação exportado pelo Selenium
 para usar os seus passos de navegação, você poderá testar o programa a partir do seu IDE e quando estiver pronto,
 exportá-lo como um JAR para ser executado automaticamente. 
 
-![intellij-project](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Projeto em Intellij")
-
 ### Exportando o programa como um Jar
+
+No Intellij é preciso definir um artefato JAR para ser gerado por um build. Entre no Project Settings e no item Artifacts adicione um artefato JAR.
+
+Use a figura abaixo para se guiar.
 
 ![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/ArtifactJAR.png "Exportando para JAR")
 
+Quando você tiver adicionado corretamente o artefato, ele deverá ser mostrado semelhante ao que aparece na figura abaixo.
 
 ![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/ArtifactJAR_Ready.png "Exportando para JAR")
 
+Você pode gerar então o artefato (Build Artifacts... no menu) e testá-lo,
+entrando no diretório onde foi gerado e usando a linha de comando, como:
+
+``
+java -jar homeofficebot.jar
+``
 
 ### Editando o crontab
 
-![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/ArtifactJAR.png "Exportando para JAR")
+Nosso último passo será editar a tabela _crontab_ para configurar o agendamento de execução do robot.
+
+Você pode invocar o comando
+``
+crontab -e
+``
+para editar sua tabela _crontab_.
+
+A minha foi editada para rodar o robot 4 vezes ao dia e se parece com isto:
+
+````
+#Edit this file to introduce tasks to be run by cron.
+# ...
+# ...
+#For example, you can run a backup of all your user accounts
+at 5 a.m every week with:
+
+#0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+
+#For more information see the manual pages of crontab(5) and cron(8)
+
+SHELL=/bin/bash
+JAVA=/home/mapo/.sdkman/candidates/java/current/bin/java
+
+#m h  dom mon dow   command
+
+00 8 * * 1,2,3,4,5 $JAVA -jar $HOME/homeofficebot.jar myUserId myPwd >> $HOME/crontab.log 2>&1
+
+00 12 * * 1,2,3,4,5 $JAVA -jar $HOME/homeofficebot.jar myUserId myPwd  >> $HOME/crontab.log 2>&1
+
+00 14 * * 1,2,3,4,5 $JAVA -jar $HOME/homeoffice.jar myUserId myPwd  >> $HOME/crontab.log 2>&1
+
+00 18 * * 1,2,3,4,5 $JAVA -jar $HOME/homeoffice.jar myUserId myPwd  >> $HOME/crontab.log 2>&1
+
+````
 
 ## Conclusão
+
+Usar o Selenium para gravar os passos necessários para navegação facilita muito a criação de um robot, 
+praticamente se tornando uma alternativa que se pode chamar de **low-code**.
+
+Espero ter mostrado de forma clara e acessível os recursos para a criação fácil de um robot automatizado.
+
+Caso tenha alguma dúvida ou sugestão, não hesite em entrar em contato.
+
+Boa sorte com seu **HomeHofficeBot**.

@@ -156,16 +156,27 @@ O código então ficará parecido com:
 Como esse programa Java irá rodar de forma independente, é importante ajustar as referências aos programas **chromedriver** e o próprio **chrome**.
 Veja os comentários **TODO** no código acima.
 
-Você encontra o programa **HomeOfficeBot.java** na estrutura final para ser executado aqui neste repositório.
+Você encontra o programa **HomeOfficeBot.java** em sua estrutura final para ser executado, aqui neste repositório.
+Modifique-o conforme sua necessidade.
+
+O projeto aqui é um projeto Maven. Você poder baixar (clone ou zip) para sua máquina local e importá-lo para sua IDE Intellij ou Eclipse.
+
+Depois que você tiver obtido seu código de navegação exportado pelo Selenium e modificado o código fonte do programa exemplo (HomeOfficeBot.java)
+para usar os seus passos de navegação, você poderá testar o programa a partir do seu IDE e quando estiver pronto,
+exportá-lo como um JAR para ser executado automaticamente. 
 
 ![intellij-project](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Projeto em Intellij")
 
 ### Exportando o programa como um Jar
 
-![intellij-export](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Exportando para Jar")
+![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/ArtifactJAR.png "Exportando para JAR")
+
+
+![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/ArtifactJAR_Ready.png "Exportando para JAR")
+
 
 ### Editando o crontab
 
-![crontab-edit](https://github.com/mauricio-porto/HomeOfficeBot/algo.png "Editando o crontab")
+![selenium-start](https://github.com/mauricio-porto/HomeOfficeBot/blob/develop/pictures/ArtifactJAR.png "Exportando para JAR")
 
 ## Conclusão

@@ -159,7 +159,7 @@ Veja os comentários **TODO** no código acima.
 Você encontra o programa **HomeOfficeBot.java** em sua estrutura final para ser executado, aqui neste repositório.
 Modifique-o conforme sua necessidade.
 
-O projeto aqui é um projeto Maven. Você poder baixar (clone ou zip) para sua máquina local e importá-lo para sua IDE Intellij ou Eclipse.
+O projeto aqui é um projeto Maven. Você poder baixar (clone ou zip) para sua máquina local e importá-lo para seu IDE Intellij ou Eclipse.
 
 Depois que você tiver obtido seu código de navegação exportado pelo Selenium e modificado o código fonte do programa exemplo (HomeOfficeBot.java)
 para usar os seus passos de navegação, você poderá testar o programa a partir do seu IDE e quando estiver pronto,
